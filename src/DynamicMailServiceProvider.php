@@ -16,6 +16,8 @@ class DynamicMailServiceProvider extends IlluminateServiceProvider
         'ses' => 'services.ses',
         'mailgun' => 'services.mailgun',
         'mandrill' => 'services.mandrill',
+        'sparkpost' => 'services.sparkpost',
+        'sparkpost-marketing' => 'sparkpost-marketing',
     ];
 
     public function register()
